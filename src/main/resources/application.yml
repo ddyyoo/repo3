@@ -1,0 +1,36 @@
+#普通数据的配置,:后需有一个空格
+name: fang
+
+#对象的配置
+person:
+  name: fang
+  age: 18
+  addr: guangdong
+
+server:
+  port: 8082
+
+#行内对象的配置(用的很少)
+person2: {name: fang,age: 18,addr: guangdong}
+
+#3配置数组(List、Set)1(元素为普通数据，-之后记得带空格)
+city:
+  - beijing
+  - guangdong
+  - shanghai
+
+#配置集合2(元素为对象数据)
+student:
+  - name: fang
+    age: 18
+    addr: shanghai
+  - name: ning
+    age: 18
+    addr: shengzhen
+#行内：
+student2: [{name: fang,age: 18,addr: shanghai},{name: ning,age: 18,addr: shengzhen}]
+
+#配置map集合3(同上对象的写法)
+map:
+  key1: value1
+  key2: value2
