@@ -4,7 +4,6 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.lihan.MySpringBootApplication;
 import com.lihan.domain.User;
-import com.lihan.mapper.UserMapper;
 import com.lihan.repository.UserRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -41,5 +40,6 @@ public class MybatisTest {
         }
         //4.将数据在控制台上打印
         System.out.println(userListJson);
+        //花花
     }
 }
